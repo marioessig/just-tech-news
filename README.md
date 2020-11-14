@@ -7,3 +7,5 @@ After creating the schema.sql, do this:
 2. Create the database: "source db/schema.sql"
 3. Confirm it worked: "show databases;"
 4. Type "quit" and press Enter
+5. Seed the database: "npm run seed"
+6. Start server: "npm start"
