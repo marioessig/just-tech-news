@@ -7,5 +7,9 @@ After creating the schema.sql, do this:
 2. Create the database: "source db/schema.sql"
 3. Confirm it worked: "show databases;"
 4. Type "quit" and press Enter
-5. Seed the database: "npm run seed"
-6. Start server: "npm start"
+
+
+To perform TDD (Test-Driven Development):
+1. Type "npm i jest -D"
+2. Update package.json: "test": "jest"
+3. Type "npm run test" to do the testing

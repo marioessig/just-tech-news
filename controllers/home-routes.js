@@ -40,7 +40,7 @@ router.get("/", (req, res) => {
       res.render("homepage", {
         posts,
         loggedIn: req.session.loggedIn,
-      });R
+      });
     })
     .catch((err) => {
       console.log(err);
